@@ -157,8 +157,8 @@
   <div class="container">
     <div class="login-box">
       <h1>로그인</h1>
-      <h3>아이디 : aaa</h3>
-      <h3>패스워드 : 1111</h3>
+      <h3>아이디 : <%=request.getParameter("id") %> </h3>
+      <h3>패스워드 : <%= request.getParameter("pw") %></h3>
       <div class="links">
         <a href="#">아이디 찾기</a> |
         <a href="#">비밀번호 찾기</a>
